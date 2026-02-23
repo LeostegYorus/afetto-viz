@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Dados",
+      "elements": [
+        {
+          "id": "adName",
+          "label": "Nome do Anúncio",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "thumbnailUrl",
+          "label": "Thumbnail URL",
+          "type": "DIMENSION",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "impressions",
+          "label": "Impressões",
+          "type": "METRIC",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "spend",
+          "label": "Investimento",
+          "type": "METRIC",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "vv3s",
+          "label": "VV 3s",
+          "type": "METRIC",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "vv25",
+          "label": "VV 25%",
+          "type": "METRIC",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "vv50",
+          "label": "VV 50%",
+          "type": "METRIC",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "vv75",
+          "label": "VV 75%",
+          "type": "METRIC",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "vv95",
+          "label": "VV 95%",
+          "type": "METRIC",
+          "options": { "min": 1, "max": 1 }
+        },
+        {
+          "id": "vv100",
+          "label": "VV 100%",
+          "type": "METRIC",
+          "options": { "min": 1, "max": 1 }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "headerColor",
+      "label": "Cor do cabeçalho",
+      "elements": [
+        {
+          "id": "headerBg",
+          "label": "Cor de fundo",
+          "type": "FILL_COLOR",
+          "defaultValue": { "color": { "r": 232, "g": 87, "b": 42 } }
+        }
+      ]
+    }
+  ]
+}

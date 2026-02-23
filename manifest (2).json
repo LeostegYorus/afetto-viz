@@ -1,0 +1,18 @@
+{
+  "name": "Afetto Ad Performance Table",
+  "description": "Tabela de performance de anúncios com imagens e gráfico de retenção",
+  "devMode": false,
+  "components": [
+    {
+      "id": "adPerformanceTable",
+      "name": "Ad Performance Table",
+      "description": "Tabela com thumbnails, métricas e gráfico de retenção",
+      "iconUrl": "https://storage.googleapis.com/afetto-community-viz/icon.png",
+      "resource": {
+        "js": "https://storage.googleapis.com/afetto-community-viz/index.js",
+        "css": "https://storage.googleapis.com/afetto-community-viz/index.css",
+        "config": "https://storage.googleapis.com/afetto-community-viz/index.json"
+      }
+    }
+  ]
+}

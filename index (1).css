@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: auto;
+  background: #fff;
+}
+
+#viz-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Célula de label (coluna esquerda) */
+.label-cell {
+  background: #E8572A;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border: 1px solid #c94a22;
+  font-size: 12px;
+  white-space: nowrap;
+  min-width: 110px;
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+.label-cell-sm {
+  background: #E8572A;
+  color: white;
+  font-weight: bold;
+  padding: 4px 12px;
+  border: 1px solid #c94a22;
+  font-size: 11px;
+  white-space: nowrap;
+  min-width: 110px;
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+/* Cabeçalho do anúncio */
+.header-cell {
+  background: #E8572A;
+  color: white;
+  font-weight: bold;
+  padding: 6px 8px;
+  border: 1px solid #c94a22;
+  text-align: left;
+  max-width: 150px;
+  min-width: 120px;
+  overflow: hidden;
+  font-size: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Células de dados normais */
+.data-cell {
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  white-space: nowrap;
+  max-width: 150px;
+  min-width: 120px;
+  font-size: 11px;
+  color: #222;
+}
+
+/* Células VV menores */
+.data-cell-sm {
+  padding: 2px 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+  white-space: nowrap;
+  max-width: 150px;
+  min-width: 120px;
+  font-size: 10px;
+  color: #444;
+}
+
+/* Células de imagem */
+.img-cell {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 4px;
+  max-width: 150px;
+  min-width: 120px;
+}
+
+.img-cell img {
+  height: 160px;
+  width: 120px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Link ver imagem */
+.thumb-link {
+  color: #E8572A;
+  font-size: 11px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Célula do gráfico */
+.chart-cell {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 6px 4px;
+  max-width: 150px;
+  min-width: 120px;
+  vertical-align: middle;
+}
+
+/* Zebra nas linhas de dados */
+tr:nth-child(even) .data-cell,
+tr:nth-child(even) .data-cell-sm {
+  background: #fafafa;
+}
