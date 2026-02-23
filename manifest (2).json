@@ -15,8 +15,4 @@
     }
   ]
 }
-```
 
-Salva o arquivo (**Commit changes**) e aguarda 1-2 minutos para o GitHub Pages atualizar. Depois cole essa URL no Looker Studio:
-```
-https://leostegyorus.github.io/afetto-viz/manifest.json
