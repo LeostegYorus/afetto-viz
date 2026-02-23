@@ -67,18 +67,5 @@
       ]
     }
   ],
-  "style": [
-    {
-      "id": "headerColor",
-      "label": "Cor do cabeçalho",
-      "elements": [
-        {
-          "id": "headerBg",
-          "label": "Cor de fundo",
-          "type": "FILL_COLOR",
-          "defaultValue": { "color": { "r": 232, "g": 87, "b": 42 } }
-        }
-      ]
-    }
-  ]
+  "style": []
 }
