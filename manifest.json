@@ -2,7 +2,7 @@
   "name": "Afetto Ad Performance Table",
   "description": "Tabela de performance de anúncios com thumbnails, métricas e gráfico de retenção por vídeo.",
   "logoUrl": "https://leostegyorus.github.io/afetto-viz/logo.png",
-  "organizationUrl": "https://leostegyorus.github.io/afetto-viz",
+  "organizationUrl": "https://github.com/LeostegYorus/afetto-viz",
   "devMode": false,
   "components": [
     {
