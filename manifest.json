@@ -6,7 +6,7 @@
   "packageUrl": "https://github.com/LeostegYorus/afetto-viz",
   "organizationUrl": "https://github.com/LeostegYorus",
   "supportUrl": "https://github.com/LeostegYorus/afetto-viz/issues",
-  "devMode": false,
+  "devMode": true,
   "components": [
     {
       "id": "adPerformanceTable",
