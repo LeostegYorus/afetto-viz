@@ -7,12 +7,16 @@
       "id": "adPerformanceTable",
       "name": "Ad Performance Table",
       "description": "Tabela com thumbnails, métricas e gráfico de retenção",
-      "iconUrl": "https://storage.googleapis.com/afetto-community-viz/icon.png",
       "resource": {
-        "js": "https://storage.googleapis.com/afetto-community-viz/index.js",
-        "css": "https://storage.googleapis.com/afetto-community-viz/index.css",
-        "config": "https://storage.googleapis.com/afetto-community-viz/index.json"
+        "js": "https://leostegyorus.github.io/afetto-viz/index.js",
+        "css": "https://leostegyorus.github.io/afetto-viz/index.css",
+        "config": "https://leostegyorus.github.io/afetto-viz/index.json"
       }
     }
   ]
 }
+```
+
+Salva o arquivo (**Commit changes**) e aguarda 1-2 minutos para o GitHub Pages atualizar. Depois cole essa URL no Looker Studio:
+```
+https://leostegyorus.github.io/afetto-viz/manifest.json
