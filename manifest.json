@@ -14,9 +14,9 @@
       "description": "Tabela com thumbnails, métricas e gráfico de retenção",
       "iconUrl": "https://leostegyorus.github.io/afetto-viz/logo.png",
       "resource": {
-        "js":     "https://leostegyorus.github.io/afetto-viz/index.js",
-        "css":    "https://leostegyorus.github.io/afetto-viz/index.css",
-        "config": "https://leostegyorus.github.io/afetto-viz/index.json"
+        "js":     "https://cdn.jsdelivr.net/gh/LeostegYorus/afetto-viz@main/index.js",
+        "css":    "https://cdn.jsdelivr.net/gh/LeostegYorus/afetto-viz@main/index.css",
+        "config": "https://cdn.jsdelivr.net/gh/LeostegYorus/afetto-viz@main/index.json"
       }
     }
   ]
