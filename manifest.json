@@ -1,14 +1,18 @@
 {
   "name": "Afetto Ad Performance Table",
+  "organization": "Afetto",
   "description": "Tabela de performance de anúncios com thumbnails, métricas e gráfico de retenção por vídeo.",
   "logoUrl": "https://leostegyorus.github.io/afetto-viz/logo.png",
-  "organizationUrl": "https://github.com/LeostegYorus/afetto-viz",
+  "packageUrl": "https://github.com/LeostegYorus/afetto-viz",
+  "organizationUrl": "https://github.com/LeostegYorus",
+  "supportUrl": "https://github.com/LeostegYorus/afetto-viz/issues",
   "devMode": false,
   "components": [
     {
       "id": "adPerformanceTable",
       "name": "Ad Performance Table",
       "description": "Tabela com thumbnails, métricas e gráfico de retenção",
+      "iconUrl": "https://leostegyorus.github.io/afetto-viz/logo.png",
       "resource": {
         "js":     "https://leostegyorus.github.io/afetto-viz/index.js",
         "css":    "https://leostegyorus.github.io/afetto-viz/index.css",
